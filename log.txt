@@ -1,0 +1,180 @@
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: LIST
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: NONE
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: READ
+prompt: Идентификатор игрушки: 
+response: 1
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: CREATE
+prompt: Введите наименование: 
+response: BEAR
+prompt: Введите количество: 
+response: 1
+prompt: Введите процент шанса: 
+response: 5
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: LIST
+print: id: 1 Наименование: BEAR Количество: 1 Шанс: 5%
+
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: CREATE
+prompt: Введите наименование: 
+response: doll
+prompt: Введите количество: 
+response: 13
+prompt: Введите процент шанса: 
+response: 24
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: read
+prompt: Идентификатор игрушки: 
+response: 2
+print: id: 2 Наименование: doll Количество: 13 Шанс: 24%
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: update
+prompt: Какую игрушку редактировать? Введите номер ID: 
+response: 2
+prompt: Введите наименование: 
+response: doll-1
+prompt: Введите количество: 
+response: 34
+prompt: Введите процент шанса: 
+response: 17
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: read
+prompt: Идентификатор игрушки: 
+response: 2
+print: id: 2 Наименование: doll-1 Количество: 34 Шанс: 17%
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: exit
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: read
+prompt: Идентификатор игрушки: 
+response: 2
+print: id: 2 Наименование: doll-1 Количество: 34 Шанс: 17%
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: exit
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: exit
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: read
+prompt: Идентификатор игрушки: 
+response: 2
+print: id: 2 Наименование: doll-1 Количество: 34 Шанс: 17%
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: exit
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: exit
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: dog
+prompt: Введите количество: 
+response: 17
+prompt: Введите процент шанса: 
+response: 3
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: cat
+prompt: Введите количество: 
+response: 11
+prompt: Введите процент шанса: 
+response: 5
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: Fox
+prompt: Введите количество: 
+response: 7
+prompt: Введите процент шанса: 
+response: 11
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: monkey
+prompt: Введите количество: 
+response: 35
+prompt: Введите процент шанса: 
+response: 2
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: Shark
+prompt: Введите количество: 
+response: 25
+prompt: Введите процент шанса: 
+response: 5
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: Seagle
+prompt: Введите количество: 
+response: 39
+prompt: Введите процент шанса: 
+response: 18
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: read
+prompt: Идентификатор игрушки: 
+response: 1
+print: id: 1 Наименование: BEAR Количество: 1 Шанс: 5%
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: list
+print: id: 1 Наименование: BEAR Количество: 1 Шанс: 5%
+
+print: id: 2 Наименование: doll-1 Количество: 34 Шанс: 17%
+
+print: id: 3 Наименование: dog Количество: 17 Шанс: 3%
+
+print: id: 4 Наименование: cat Количество: 11 Шанс: 5%
+
+print: id: 5 Наименование: Fox Количество: 7 Шанс: 11%
+
+print: id: 6 Наименование: monkey Количество: 35 Шанс: 2%
+
+print: id: 7 Наименование: Shark Количество: 25 Шанс: 5%
+
+print: id: 8 Наименование: Seagle Количество: 39 Шанс: 18%
+
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
+response: create
+prompt: Введите наименование: 
+response: Fish
+prompt: Введите количество: 
+response: 34
+prompt: Введите процент шанса: 
+response: 4
+prompt: 
+Введите команду: [NONE, READ, CREATE, UPDATE, LIST, DELETE, PICK, POP, EXIT] 
